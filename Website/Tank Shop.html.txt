@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Tank Shop</title>
+<body>
+
+<h1 class="title">Welcome to <u>Jellybean Daycare</u>,<br>
+your friendly neighborhood arms dealer<br>
+
+</h1>
+
+	<b1 class="descriptor text">We here at <u>Jellybean Daycare</u> are your number one provider of family friendly armored combat vehicles,<br>
+	ranging from top of the line MBT for serious conflicts to the Weisel light tank for your childs schoolyard tussles,<br>
+	we have everything you need.</b1>
+
+<table class="Vehicle table">
+  <tr>
+    <th>Vehicle</th>
+    <th>Image</th>
+    <th>Features</th>
+    <th>Price</th>
+    <th>Item page</th>
+  </tr>
+ <tr>
+    <th>T-55AM-1</th>
+    <th><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/T-55AM2B_at_Panzermuseum_Munster.jpg/800px-T-55AM2B_at_Panzermuseum_Munster.jpg" /></th>
+    <th><ul class="features">
+      <li>Excellent 100mm gun with atgm ammunition available</li>
+      <li>Laser rangefinder for accurate rangefinding</li>
+      <li>Upgrades to armor package to improve protection</li>
+      <li>Infared night vision for night combat with infared optic for longer view distances</li>
+    </ul>
+    </th>
+    <th>$69,000</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>CV 90</th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Stridsfordon_90_Revinge_2012-2.jpg" /></th>
+    <th><ul class="features">
+      <li>40mm Bofors gun with wide selection of ammuntion types</li>
+      <li>Computerized suspension allows for quick traversal of rough terrain</li>
+      <li>Thermal signature adjusting panels allows of reduction or changing of thermal signature</li>
+      <li>Advanced optics with thermal vision for effective night combat</li>
+      <li>Powerful apdsfs round gives up to 280mm of penetration with a high rate of fire</li>
+      </ul>
+    </th>
+    <th>$200,000</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Leopard 2a7+</th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Leopard_2_A7%2C_Eurosatory_2010.jpg/1280px-Leopard_2_A7%2C_Eurosatory_2010.jpg" /></th>
+    <th><ul class="features">
+    <!-- Credit Image Creator -->
+    <li>Top end armor allows you to resist nearly anything thrown at you with the arrowhead being resistent to all currently operated shells</li>
+    <li>Advanced fire control system with Battlefield Managment System provides some of the best vehicle dynamics around</li>
+    <li>1500hp engine provides excellent mobility</li>
+    <li>Rheinmetall 120mm L/55 provides high levels of penetration to any possible threat you may face</li>
+    <li>3rd Generation Thermal optics with an independent Commanders sight gives top of the line hunter killer options in both day and night conditons</li>
+    </ul>
+  </th>
+    <th>$1,945,000</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>T-72B</th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/T-72_Ajeya1.jpg/220px-T-72_Ajeya1.jpg"/></th>
+    <th><ul class="features">
+      <li>Low profile that allows for great use of terrain for concealment and gives the enemy a smaller profile</li>
+      <li>Autoloader brings crew count down to three and keep loading time consistent</li>
+      <li>9M119 Svir ATGM lets you take on targets at extreme range and deal with low flying helicopters</li>
+      <li>Can mount Kontact 1 allowing for improved protection against heat projectiles</li>
+  </ul>
+  </th>
+    <th>$120,000</th>
+    <th>Item page</th>
+  </tr>
+  <tr>
+    <th>Type 90</th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Type_90_Tank_-_2.jpg"/></th>
+    <th><ul class="features">
+      <li>Rheinmetall 120mm L/44 has excellent ballistic preformance and allows for the use of all standard nato ammumition types</li>
+      <li>Hydropheumatic suspension gives excellent mobility on rough terrain and allows you to adjust the tank's profile</li>
+      <li>Modular armor gives good protection with similar values to the Leopard 2a4</li>
+      <li>Gunner's sight has thermal imaging allowing for targeting in low visablility conditions</li>
+    </ul>
+    </th>
+    <th>$1,200,000</th>
+    <th>Item page</th>
+  </tr>
+  <tr>
+    <th>Rooikat</th>
+    <th><img src="data:image/jpeg;base64,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"/></th>
+    <th><ul class="features">
+      <li>High velocity 76mm gun allows for excellent projectile characteristics for a gun of this size</li>
+      <li>Low weight and 563hp engine gives excellent mobility both on and off road</li>
+      <li>Wheels make the vehicle harder to imobilize from damage</li>
+      <li>High speed on roads allows for quick responces to threats in areas with roads</li>
+    </ul>
+    </th>
+    <th>$94,000</th>
+    <th>Item page</th>
+  </tr>
+
+</html>
