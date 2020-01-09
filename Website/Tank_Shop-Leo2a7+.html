@@ -1,7 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
-<title>Tank Shop/Leopard2a7</title>
+<head>
+  <title>Tank Shop/Leopard2a7</title>
+</head>
 <body>
+
 
 <h1 class="sub-head-1">Leopard 2a7+</h1>
 <h2 class="sub-head-2">The high tech hunter</h2>
@@ -37,10 +40,12 @@
     </ul>
   </tr>
 
-<form action="cart" method="POST">
-  <h3>Unit Price: $1,945,000</h3>
-  <section class="Tank">
-  <label for="vehicle">How many vehicles would you like to order?</label>
-    <input type="number" name="vehicle_amount" id="vehicle_amount">
+  <section class="order_form">
+  	<form action="submission.html" method="GET">
+  		<label for="NumVeh">Unit price: $1,945,000</label>
+  		<br>
+      <impit type="number" name="tank#" id="tank#" min="1" max="100" required>
+  		<br>
+  		<input type="submit" id="submission" value="Submit">
+    </form>
   </section>
-  
