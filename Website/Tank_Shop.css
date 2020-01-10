@@ -20,7 +20,7 @@
 
 title {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 800 bold;
   text-transform: uppercase;
   font-size: 60px;
   color: #FFA500;
@@ -34,4 +34,31 @@ li a:hover {
 li a{
 background-color: #0000ff;
 color: #ffffff;
+}
+
+ul .nav{
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+.grid {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 40px;
+  grid-column-gap: 15px;
+}
+
+.home{
+  grid-column:   
+}
+.Ammo-Shop{
+  grid-column: 2
+}
+.About-Us{
+  grid-column: 3
 }
