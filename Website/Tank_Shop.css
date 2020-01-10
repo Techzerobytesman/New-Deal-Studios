@@ -1,1 +1,37 @@
-﻿
+@font-face {
+ font-family: 'Open Sans', sans-serif;
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,800&display=swap);
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px
+  background-color: #0000ff;
+  border-bottom: 1px solid #0000ff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  font-weight: bold;
+}
+
+.header a {
+  padding: 30px 20px;
+}
+
+title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #FFA500;
+}
+
+li a:hover {
+  background-color: #FFA500;
+  color: #000000;
+}
+
+li a{
+background-color: #0000ff;
+color: #ffffff;
+}
