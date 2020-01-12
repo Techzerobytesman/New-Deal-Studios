@@ -1,64 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
  font-family: 'Open Sans', sans-serif;
  src: url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,800&display=swap);
 }
 
-.header {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px
+.nav {
   background-color: #0000ff;
-  border-bottom: 1px solid #0000ff;
-  position: fixed;
+  text-align: center;
+  padding: 20px 0 20px 0;
   width: 100%;
-  z-index: 10;
-  font-weight: bold;
+  position: fixed;
 }
 
-.header a {
-  padding: 30px 20px;
+.nav li{
+  display: inline-block:
+  padding right: 50px
 }
 
+.nav li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight:bold;
+  display: block;
+}
+nav li a:hover{
+  color: #0000ff;
+  background-color: #ffa500;
+}
 title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800 bold;
   text-transform: uppercase;
   font-size: 60px;
   color: #FFA500;
-}
-
-li a:hover {
-  background-color: #FFA500;
-  color: #000000;
-}
-
-li a{
-background-color: #0000ff;
-color: #ffffff;
-}
-
-ul .nav{
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
-}
-
-.grid {
-  height: 50px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 25%);
-  grid-template-rows: 40px;
-  grid-column-gap: 15px;
-}
-
-.home{
-  grid-column:   
-}
-.Ammo-Shop{
-  grid-column: 2
-}
-.About-Us{
-  grid-column: 3
 }
