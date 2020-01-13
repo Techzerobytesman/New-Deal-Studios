@@ -1,1 +1,67 @@
 ﻿
+*{
+  margin: 0;
+  padding: 0;
+  }
+  @font-face {
+   font-family: 'Open Sans', sans-serif;
+   src: url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,800&display=swap);
+  }
+  .nav {
+    background-color: #0000ff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .nav li{
+    display: inline:
+    padding-right: 50px;
+  }
+  .nav li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    display: block;
+    color: #ffa500;
+    background-color: #0000ff;
+  }
+  nav li a:hover{
+    color: #0000ff;
+    background-color: #ffa500;
+  }
+  title{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800 bold;
+   text-transform: uppercase;
+   font-size: 40px;
+   color: #FFA500;
+ }
+ img {
+   max-width: 100%;
+   display: block;
+   max-height: Auto;
+ }
+ table .Specs, th, td{
+   border: 5px solid #0000ff;
+ }
+table{
+  border-collapse: collapse;
+  grid-row: 10 / 14;
+  grid-column: 2 / 9;
+}
+body{
+  background-color: #ffa500;
+}
+.grid{
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-auto-columns: repeat 10(10%);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+.order_form{
+  grid-row: 15 / 16;
+}
