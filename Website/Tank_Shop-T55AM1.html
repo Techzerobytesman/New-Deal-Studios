@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html>
-<title>Tank Shop/T-55AM-1</title>
+<header>
+  <link rel="stylesheet" type="text/css" href="tank_Shop-Tank_Page.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,800&display=swap" rel="stylesheet">
+	<nav class="header">
+    <ul class="nav">
+    <li><a href="./Tank_Shop.html" class="box-home">Home</a></li>
+		<li><a href="./Tank_Shop-Ammo_Shop.html" class="box Ammo-Shop">Ammo Shop</a></li>
+		<li><a href="./Tank_Shop-About_Us.html" class="box About-Us">About Us</a></li>
+  </ul>
+  </nav>
+</header>
 
-<h1 class"sub-head-1"> T-55AM-1 </h1>
-<h2 class"sub-head-2"> The Budget Revolutionary </h2>
+<head>
+  <title>Tank Shop/T-55AM-1</title>
+</head>
+<body>
 
-<img src="https://www.militaryimages.net/media/t-55am-1.32038/full"/>
+
+<h1 class="sub-head-1">T-55AM-1</h1>
+<h2 class="sub-head-2">The Budget Revolutionary</h2>
+
+<img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjcu9SQpYLnAhXXLc0KHVRmB48QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FTankPorn%2Fcomments%2Fcp8hjy%2Ft55am1%2F&psig=AOvVaw1UVLsbqEgZ0teCGE5Wvim9&ust=1579063778687390"/>
+
 
 <table class="Specs">
-	<tr>
-		<th><ul class="features">
-			<th> Armament </th>
-			<th> 100mm modernised D-10t, provides an excellent array of ammunition from the 9M117 Bastion ATGM (Sold Seperatly LINK IT 30k) </th>
-		</ul>
-	</tr>
-	<tr>
-		<th>Protection</th>
-		<th><ul class="features1">
-			<li>rubber side skirts provide added protection against RPGs</li>
-			<li>added armor provides excellent protection against most L7 rounds</li>
-			<li>Smoke grenade launchers on the turret give excellent tactical concealment options</li>
-		</ul>
-	</tr>
-	<tr>
-	<th>Mobility</th>
-		<th><ul class="features1">
-			<li>780 horsepower V-46 engine propels the vehicle up to 50 km/h</li>
-			<li>reliable design will keep working even in the toughest conditions</li>
-			<li>low profile is hard to spot allowing for more offensive capabilities</li>
-			<li>Torsion bar suspension provides excellent off road mobility and stability</li>
-		</ul>
-	</tr>
-
-<form action="cart" method="POST">
-	<h3>Unit Price: $69,000</h3>
-	<section class="Tank">
-	<label for="vehicle">How many vehicles would you like to order?</label>
-		<input type="number" name="vehicle_amount" id="vehicle_amount">
-	</section>
+  <tr>
+    <th>Armament</th>
+    <th><ul class="features1">
+      <li>2A64 125mm Smoothbore Cannon</li>
+      <li>Coaxial PKT</li>
+      <li>smoke launchers for added survivability</li>
+      <li>Modern fire control system for improved awareness and accuracy</li>
+    </ul></th>
+  </tr>
+  <tr>
+    <th>Protection</th>
+    <th><ul class="features1">
+      <li>Arrowhead armor combined with modern composite on turret and hull provides extreme levels of protection</li>
+      <li>added armor makes the tank more effective</li>
+    </ul></th>
+  </tr>
+  <tr>
+  <th>Mobility</th>
+    <th><ul class="features1">
+       <li>big engine make armor box go many speed</li>
+    </ul></th>
+  </tr>
+</table>
+  <section class="order_form">
+  	<form action="Tank_Shop-Submit.html" method="GET">
+      <h2>Order Here</h2>
+  		<label for="NumVeh">Unit price: $69,000</label>
+      <input type="number" name="tank#" id="tank#" min="1" max="100" required>
+  		<br>
+  		<input type="submit" id="submission" value="Submit" href=>
+    </form>
+  </section>
+    </body></html>
