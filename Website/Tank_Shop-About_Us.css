@@ -1,8 +1,18 @@
-
-
 body{
   background-color: lightblue
 }
-.text{
-  color: black
+
+h1 {
+  text-align: center;
+  font-family: Impact;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: darkorange;
+}
+p {
+  text-align: center;
+  font-family: Arial;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: black;
 }
