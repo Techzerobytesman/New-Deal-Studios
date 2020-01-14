@@ -1,6 +1,8 @@
+body{
+  background-color: lightblue
+}
+
 .grid {
-
-
 
   grid-template-columns: 0%r;
   grid-template-rows: 100px 100px;
@@ -9,10 +11,10 @@
 }
 
 .box {
-  background-color: beige;
-  color: black;
+  background-color: Orange;
+  color: Black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  border: 2px blue solid;
 }
 
 .slidecontainer {
@@ -25,8 +27,8 @@
   appearance: none;
   width: 100%; /* Full-width */
   height: 25px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
+  background: Orange
+  outline: Pink; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
@@ -43,7 +45,7 @@
   appearance: none;
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+  background: magenta; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
 
